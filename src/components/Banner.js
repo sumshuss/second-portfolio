@@ -53,7 +53,7 @@ export const Banner = () => {
                         <p> I am looking for my first role in the tech industry as a Front-end developer!</p>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={image} alt="floating astromaut" />
+                        {/* <img src={image} alt="floating astromaut" /> */}
 
                     </Col>
                 </Row>
