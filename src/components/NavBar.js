@@ -1,5 +1,5 @@
-import { Navbar, Container } from 'react-bootstrap'
 import { useEffect, useState } from 'react';
+import { Navbar, Container, Nav } from 'react-bootstrap'
 import logo from '../assets/img/cat_logp.png';
 import icon1 from '../assets/img/nav-icon1.svg';
 import icon2 from '../assets/img/nav-icon2.svg';
@@ -42,7 +42,7 @@ export const NavBar = () => {
             </Nav>
             <span className='navbar-text'> 
             
-                <div className='navbar-text'> 
+                <div className='social-icon'> 
                     <a href='#'><img src={icon1} alt="" /></a>
                     <a href='#'><img src={icon2} alt="" /></a>
                     <a href='#'><img src={icon3} alt="" /></a>
