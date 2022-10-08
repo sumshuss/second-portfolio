@@ -39,15 +39,15 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                             <img src={img1} alt="meter" />
-                                <h5> Front-end development </h5>
+                                <h5> Team work skills </h5>
                             </div>
                             <div className="item">
                                 <img src={img2} alt="meter" />
-                                <h5> Front-end development </h5>
+                                <h5> Fast learner</h5>
                             </div>
                             <div className="item">
                             <img src={img3} alt="meter" />
-                                <h5> Front-end development </h5>
+                                <h5> Communication skills </h5>
                             </div>
                             <div className="item">
                             <img src={img1} alt="meter" />

@@ -20,7 +20,7 @@
 /* Default CSS */
 
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   line-height: normal;
 }
@@ -313,7 +313,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: 60px;
 }
 .skill h2 {
 	font-size: 45px;
@@ -548,7 +548,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Footer Css ************/
-.footer {
+/* .footer {
   padding: 0 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
@@ -624,4 +624,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
-}
+} */

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import logo from '../assets/img/cat_logp.png';
+
 import icon1 from '../assets/img/nav-icon1.svg';
 import icon2 from '../assets/img/nav-icon2.svg';
 import icon3 from '../assets/img/nav-icon3.svg';
@@ -21,9 +22,10 @@ export const NavBar = () => {
         return () => window.removeEventListener("scroll", onScroll)
     }, [])
 
-    const onUpdateActiveLink = () => {
-
+    const onUpdateActiveLink = (value) => {
+      setActiveLink(value);
     }
+  
 
     return (
       <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
@@ -37,8 +39,10 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#home" className={activeLink === "home" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('home')}>Home</Nav.Link>
-              <Nav.Link href="#link" className={activeLink === "home" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('skills')}>Skills</Nav.Link>
-              <Nav.Link href="#link" className={activeLink === "home" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href="#about" className={activeLink === "about" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('about')}>About</Nav.Link>
+              <Nav.Link href="#work" className={activeLink === "work" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('work')}>Work</Nav.Link>
+              <Nav.Link href="#skill" className={activeLink === "skill" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('skill')}>Technical Profile</Nav.Link>
+              <Nav.Link href="#projects" className={activeLink === "projects" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
             <span className='navbar-text'> 
             
@@ -48,7 +52,7 @@ export const NavBar = () => {
                     <a href='#'><img src={icon3} alt="" /></a>
                 </div>
                 <button className='vvd' onClick={()=> console.log('connect')}>
-                    <span>Let's connect!</span>
+                    <span>Contact me</span>
                 </button>
             </span>
           </Navbar.Collapse>
