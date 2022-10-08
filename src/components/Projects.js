@@ -18,6 +18,7 @@ export const Projects = () => {
     return(
 
         <section className='project' id="project">
+            <h1> projects section</h1>
         </section>
 
     )
