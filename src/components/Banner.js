@@ -30,17 +30,7 @@ export const Banner = () => {
 
         setText(updatedText)
 
-        // if (isDeleting) {
-        //     setDelta(prevDelta => prevDelta /2 )
-        // }
-        // if (!isDeleting && updatedText === fullText){
-        //     setIsDeleting(true)
-        //     setDelta(period)
-        // } else if(isDeleting && updatedText === '') {
-        //     setIsDeleting(false);
-        //     setLoopWord(loopWord + 1);
-        //     setDelta(500)
-        // }
+    
     }
 
 
