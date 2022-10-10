@@ -8,6 +8,7 @@ import './Skill.scss';
 const Skill = () => {
   const [experiences, setExperiences] = useState([]);
   const [skills, setSkills] = useState([]);
+  const [tooltip, showTooltip] = useState(true);
 
   useEffect(() => {
     const query = '*[_type == "experiences"]';
@@ -26,6 +27,7 @@ const Skill = () => {
     <div className='Skill' id="skill">
       <h2 className="head-text">Skills & Experiences</h2>
 
+     
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
           {skills.map((skill) => (
@@ -73,6 +75,7 @@ const Skill = () => {
                       effect="solid"
                       arrowColor="#fff"
                       className="skills-tooltip"
+    
                     >
                       {work.desc}
                     </ReactTooltip>
