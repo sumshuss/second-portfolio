@@ -4,17 +4,7 @@ import './About.scss'
 import image from '../../assets/img/about01.png'
 import { urlFor, client } from '../../client'
 
-// const abouts = [
-//   { title: 'Web development', description: "I am good at web development", imgUrl:`${image}`},
-//   { title: 'Web Design and project planning', description: "I am good at web development", imgUrl: `${image}`},
-//   { title: 'Implementing UI/UX', description: "I am good at web development", imgUrl: `${image}`},
-//   { title: 'Front end development', description: "I am good at web development", imgUrl: `${image}`}
-
-// ]
-
 const About = () => {
-
-
   const [abouts, setAbouts] = useState([]);
 
   useEffect(() => {

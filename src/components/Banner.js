@@ -41,10 +41,10 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">My name is Summira Hussain</span>
                         <h1> {`Welcome to my portfolio!`} <span className="wrap"> {text} </span></h1>
-                        <p> I am looking for my first role in the tech industry as a Front-end developer!</p>
+                        <p> A passionate and versatile Front-end developer looking to make a difference in the tech industry!</p>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        {/* <img src={image} alt="floating astromaut" /> */}
+
 
                     </Col>
                 </Row>
