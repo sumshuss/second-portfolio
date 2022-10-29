@@ -77,14 +77,7 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
-p.success {
-	color: green;
-}
-
-p.danger {
-	color: red;
-}
-/************ Navbar Css ************/
+/******* Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -237,7 +230,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/space3.jpg');
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.019) 10%, rgba(20,0,47,1) 900%, rgba(0, 0, 0, 0.541) 0%),url('./assets/img/space3.jpg');
   height: 700px;
   background-position: top center;
   background-size: cover;
