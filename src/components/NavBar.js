@@ -40,9 +40,10 @@ export const NavBar = () => {
             <Nav className="me-auto">
               <Nav.Link href="#home" className={activeLink === "home" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#about" className={activeLink === "about" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('about')}>About</Nav.Link>
-              <Nav.Link href="#work" className={activeLink === "work" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('work')}>Work</Nav.Link>
-              <Nav.Link href="#skill" className={activeLink === "skill" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('skill')}>Technical Profile</Nav.Link>
+              <Nav.Link href="#skills" className={activeLink === "skills" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === "projects" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href="#skill" className={activeLink === "skill" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('skill')}>Technical Profile</Nav.Link>
+  
             </Nav>
             <span className='navbar-text'> 
             
@@ -51,9 +52,11 @@ export const NavBar = () => {
                     <a href='#'><img src={icon2} alt="" /></a>
                     <a href='#'><img src={icon3} alt="" /></a>
                 </div>
-                <button className='vvd' onClick={()=> console.log('connect')}>
+               
+
+                <Nav.Link href="#contact" className={activeLink === "contact" ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('contact')}> <button className='vvd'>
                     <span>Contact me</span>
-                </button>
+                </button></Nav.Link>
             </span>
           </Navbar.Collapse>
         </Container>

@@ -36,7 +36,7 @@ const Footer = () => {
       .catch((err) => console.log(err));
   };
   return (
-    <div className='Footer'>
+    <div className='Footer' id="contact">
       <h2 className="head-text">Grab a coffee & chat with me!</h2>
 
       <div className="app__footer-cards">

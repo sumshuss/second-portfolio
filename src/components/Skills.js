@@ -38,24 +38,60 @@ export const Skills = () => {
                         <p> Here are my skills</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
-                            <img src={img1} alt="meter" />
+                                <img src={img1} alt="meter" />
                                 <h5> Team work skills </h5>
                             </div>
                             <div className="item">
-                                <img src={img2} alt="meter" />
+                                <img src={img1} alt="meter" />
                                 <h5> Fast learner</h5>
                             </div>
                             <div className="item">
-                            <img src={img3} alt="meter" />
+                                <img src={img3} alt="meter" />
                                 <h5> Communication skills </h5>
                             </div>
                             <div className="item">
-                            <img src={img1} alt="meter" />
+                                <img src={img1} alt="meter" />
                                 <h5> Front-end development </h5>
                             </div>
                             <div className="item">
-                            <img src={img3} alt="meter" />
-                                <h5> Front-end development </h5>
+                                <img src={img3} alt="meter" />
+                                <h5> Back-end development </h5>
+                            </div>
+                            <div className="item">
+                                <img src={img3} alt="meter" />
+                                <h5> Adaptable and open-minded </h5>
+                            </div>
+                            <div className="item">
+                                <img src={img3} alt="meter" />
+                                <h5> Knowledge of Agile Methodology </h5>
+                            </div>
+                            <div className="item">
+                                <img src={img1} alt="meter" />
+                                <h5> Strong skills with HTML, JavaScript, and CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={img1} alt="meter" />
+                                <h5>Experience building applications with React</h5>
+                            </div>
+                            <div className="item">
+                                <img src={img2} alt="meter" />
+                                <h5> Excellent presentation skills</h5>
+                            </div>
+                            <div className="item">
+                                <img src={img3} alt="meter" />
+                                <h5> Strong willingness to learn </h5>
+                            </div>
+                            <div className="item">
+                                <img src={img1} alt="meter" />
+                                <h5> Great attention to detail </h5>
+                            </div>
+                            <div className="item">
+                                <img src={img1} alt="meter" />
+                                <h5> Excellent presentation skills</h5>
+                            </div>
+                            <div className="item">
+                                <img src={img3} alt="meter" />
+                                <h5>Command line interface</h5>
                             </div>
                         </Carousel>
                     </div>
