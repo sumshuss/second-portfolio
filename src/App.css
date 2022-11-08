@@ -113,6 +113,9 @@ span.navbar-text {
     display: inline-block;
     margin-left: 14px;
 }
+.home_logo{
+  width: 70px;
+}
 .social-icon a {
     width: 42px;
     height: 42px;
